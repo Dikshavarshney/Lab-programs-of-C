@@ -1,7 +1,12 @@
-#include <stdio.h>
-#define start main
+// printing message without using main function
 
-void start(){
+#include <stdio.h>
+#define diksha main
+
+void diksha(){
    printf("Hello world");    
    return 0;
 }
+
+-------------------------OUTPUT---------------------------------------------
+Hello world

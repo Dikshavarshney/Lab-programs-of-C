@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+int main(){
+    
+    int sum=0, arr[3];
+    
+    for(int i=0; i<3; i++){
+        printf("\nEnter the %d element to array : ",i+1);
+        scanf("%d",&arr[i]);
+    }
+    for(int i=0; i<3; i++){
+        printf("\n%d element of array is : %d ",i+1,arr[i]);
+    }
+    
+    for(int i=0; i<3;i++){
+        sum=sum+arr[i];
+    }
+    printf("\nThe sum of array is : %d ",sum);
+    
+return 0;    
+}
+
+------------------------------------------------------------------------
+
+Enter the 1 element to array : 1
+Enter the 2 element to array : 2
+Enter the 3 element to array : 3
+1 element of array is : 1 
+2 element of array is : 2 
+3 element of array is : 3 
+The sum of array is : 6
